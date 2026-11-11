@@ -1,0 +1,12 @@
+[tools]
+go = "1.27.4"
+node = "22.23.2"
+python = "3.14.7"
+
+[tasks.dev]
+description = "启动 MyGo 原生开发窗口，保存后自动重启"
+run = 'PATH="$(dirname "$(mise which go)"):$PATH" go tool mygo dev'
+
+[tasks.build]
+description = "构建工具箱应用"
+run = 'PATH="$(dirname "$(mise which go)"):$PATH" go tool mygo build'

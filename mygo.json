@@ -1,0 +1,10 @@
+{
+  "name": "工具箱",
+  "identifier": "cc.hyskr.localtoolbox",
+  "version": "0.1.0",
+  "out": "build",
+  "macos": {
+    "minimumSystemVersion": "14.0"
+  },
+  "icon": "resources/icon.png"
+}
